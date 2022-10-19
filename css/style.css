@@ -574,6 +574,82 @@ main .container .about p {
     display: none;
 }
 
+main .container .book-a-trip form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin: 0 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #4B79A1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px;
+}
+
+main .container .book-a-trip form div {
+    color: #fff;
+    margin: 15px;
+}
+
+main .container .book-a-trip form div label {
+    cursor: pointer;
+}
+
+input[type="date"] {
+    background: #4B79A1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    cursor: pointer;
+}
+
+main .container .book-a-trip form div input {
+    border: none;
+    outline: none;
+    padding: 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+main .container .book-a-trip form .submit input {
+    background: #4B79A1;
+    /*fallbackforoldbrowsers*/
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /*Chrome10-25,Safari5.1-6*/
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+}
+
 @media (max-width: 1295px) {
     .header nav {
         position: fixed;
@@ -670,6 +746,10 @@ main .container .about p {
         -moz-transform: translate(-50%, 50%);
         -ms-transform: translate(-50%, 50%);
         -o-transform: translate(-50%, 50%);
+    }
+
+    main .container .book-a-trip form div {
+        margin: 30px;
     }
 
     main .container .sub-title {
