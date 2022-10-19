@@ -604,20 +604,14 @@ main .container .book-a-trip form div label {
 }
 
 input[type="date"] {
-    background: #4B79A1;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #fff;
+    color: var(--main-color);
     border: none;
     outline: none;
 }
 
 ::-webkit-calendar-picker-indicator {
-    filter: invert(1);
-    -webkit-filter: invert(1);
+    filter: invert(0);
+    -webkit-filter: invert(0);
     cursor: pointer;
 }
 
@@ -638,16 +632,11 @@ main .container .book-a-trip form div input {
 }
 
 main .container .book-a-trip form .submit input {
-    background: #4B79A1;
-    /*fallbackforoldbrowsers*/
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
-    /*Chrome10-25,Safari5.1-6*/
-    background: linear-gradient(to right, #283E51, #4B79A1);
-    /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
-    color: #fff;
+    color: var(--main-color);
     cursor: pointer;
     padding: 10px;
     width: 150px;
+    background: #fff;
 }
 
 @media (max-width: 1295px) {
