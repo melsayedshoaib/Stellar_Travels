@@ -19,11 +19,11 @@
                 <li><a href="#exclusives">Most Visited</a></li>
                 <li><a href="#trending">Trending Places</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#book-now-trip">Book Now</a></li>
                 <li><a href="#stories">Stories</a></li>
                 <li><a href="#about">About Us</a></li>
             </ul>
-            <a href="#booking" class="book-now">Book Now</a>
+            <a href="#book-now-trip" class="book-now">Book Now</a>
         </nav>
         <div class="container">
             <h1>Find Your Next Destination</h1>
@@ -210,7 +210,7 @@
             <div class="book-now" id="booking">
                 <h3>Book Now</h3>
                 <p>Book Your Dream Flight With Us</p>
-                <a href="#book-now" class="book-btn">Book Now</a>
+                <a href="#book-now-trip" class="book-btn">Book Now</a>
             </div>
             <h2 class="sub-title" id="stories">Travelers Stories</h2>
             <div class="stories">
@@ -227,7 +227,47 @@
                     <p>See The Beauty of The World</p>
                 </div>
             </div>
-            <a href="#booking" class="book-now-btn">Book Now</a>
+            <a href="#book-now-trip" class="book-now-btn">Book Now</a>
+            <h2 class="sub-title" id="book-now-trip">Book Now</h2>
+            <div class="book-a-trip">
+                <form>
+                    <div class="name">
+                        <label for="name">Enter Your Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="email-address">
+                        <label for="email-address">Enter Your Email:</label>
+                        <input type="email" name="email" id="email-address" placeholder="Your Email">
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone-number">Enter Your Phone Number:</label>
+                        <input type="tel" name="phone" id="phone-number" placeholder="Your Phone Number">
+                    </div>
+                    <div class="dest">
+                        <label for="dest">Destination Country:</label>
+                        <input type="text" name="country" id="dest" placeholder="Destination Country">
+                    </div>
+                    <div class="departure">
+                        <label for="dep">Enter Departure Date:</label>
+                        <input type="date" name="departure" id="dep">
+                    </div>
+                    <div class="arrival">
+                        <label for="arr">Enter Arrival Date:</label>
+                        <input type="date" name="arrival" id="arr">
+                    </div>
+                    <div class="persons">
+                        <input type="radio" name="travelers" id="trs">
+                        <label for="trs">1 Passenger</label>
+                    </div>
+                    <div class="persons">
+                        <input type="radio" name="travelers" id="trav">
+                        <label for="trav">More Than One</label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
             <div class="about" id="about">
                 <h2>About Stellar Travels</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, maxime. Totam nesciunt reprehenderit et sint adipisci hic dolor placeat aliquam ut quidem asperiores, officiis, deserunt quaerat nemo nobis quibusdam velit?
