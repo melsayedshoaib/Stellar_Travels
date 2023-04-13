@@ -89,19 +89,19 @@ a {
 }
 
 .header nav a {
-    transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+    transition: .3s;
 }
 
 .header nav .book-now:hover {
-    transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+    transform: scale(1.1);
     background: #1A385A;
     color: #fff;
 }
@@ -120,11 +120,11 @@ a {
     background: #fff;
     color: #000;
     padding: 8px 20px;
-    border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    border-radius: 20px;
     font-size: 14px;
 }
 
@@ -145,11 +145,11 @@ a {
     width: 70%;
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
-    border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .header .container .search-bar form {
@@ -169,11 +169,11 @@ a {
     background: var(--main-color);
     width: 55px;
     height: 55px;
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    border-radius: 50%;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -204,19 +204,20 @@ main .container .exclusives {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin: 0 50px;
+    place-content: center;
 }
 
 main .container .exclusives div img {
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    transition: .3s;
+    border-radius: 10px;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+    transition: .3s;
 }
 
 main .container .exclusives div {
@@ -231,11 +232,11 @@ main .container .exclusives div::before {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 50%);
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 
 main .container .exclusives div:hover {
@@ -244,22 +245,22 @@ main .container .exclusives div:hover {
 
 main .container .exclusives div:hover img {
     cursor: pointer;
-    transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 main .container .exclusives div span {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
 }
@@ -269,28 +270,29 @@ main .container .trending {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin: 0 50px 30px;
+    place-content: center;
 }
 
 main .container .trending div img {
     width: 100%;
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    transition: .6s;
+    border-radius: 10px;
     -webkit-transition: .6s;
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
+    transition: .6s;
 }
 
 main .container .trending div:hover img {
-    transform: rotate(-1deg) scale(1.05);
     -webkit-transform: rotate(-1deg) scale(1.05);
     -moz-transform: rotate(-1deg) scale(1.05);
     -ms-transform: rotate(-1deg) scale(1.05);
     -o-transform: rotate(-1deg) scale(1.05);
+    transform: rotate(-1deg) scale(1.05);
     cursor: pointer;
 }
 
@@ -305,42 +307,43 @@ main .container .gallery {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin: 0 50px;
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
     padding: 15px;
+    place-content: center;
 }
 
 main .container .gallery img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    transition: .6s;
+    border-radius: 50%;
     -webkit-transition: .6s;
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
+    transition: .6s;
     opacity: 0.9;
 }
 
 main .container .gallery div:hover img {
     cursor: pointer;
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    transform: scale(1.05);
+    border-radius: 10px;
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
+    transform: scale(1.05);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     opacity: 1;
 }
@@ -356,11 +359,11 @@ main .container .book-now {
     background-image: linear-gradient(to right, #1a385a, transparent), url("../Images/book.png");
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
     padding: 5%;
     color: #fff;
     margin-left: 50px;
@@ -382,27 +385,27 @@ main .container .book-now .book-btn {
     background: var(--main-color);
     color: #fff;
     padding: 12px 30px;
-    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    border-radius: 8px;
     margin-top: 20px;
     display: inline-block;
-    transition: .6s;
     -webkit-transition: .6s;
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
+    transition: .6s;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 main .container .book-now .book-btn:hover {
-    transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 main .container .stories {
@@ -410,24 +413,25 @@ main .container .stories {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin: 0 50px;
+    place-content: center;
 }
 
 main .container .stories div img {
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 
 main .container .stories div {
     position: relative;
     text-align: center;
-    transition: .4s;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -ms-transition: .4s;
     -o-transition: .4s;
+    transition: .4s;
 }
 
 main .container .stories div::before {
@@ -438,25 +442,25 @@ main .container .stories div::before {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 70%);
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 
 main .container .stories div:hover {
     cursor: pointer;
-    transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
-    border-radius: 10px;
+    transform: scale(1.05);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 
 main .container .stories div p {
@@ -464,11 +468,11 @@ main .container .stories div p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 26px;
 }
@@ -482,25 +486,25 @@ main .container .book-now-btn {
     text-align: center;
     margin: 60px auto;
     padding: 15px;
-    border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 30px;
     font-size: 20px;
-    transition: .6s;
     -webkit-transition: .6s;
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
+    transition: .6s;
 }
 
 main .container .book-now-btn:hover {
-    transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 main .container .about {
@@ -530,11 +534,11 @@ main .container .about p {
     color: #333;
     margin: 0 10px;
     cursor: pointer;
-    transition: .4s;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -ms-transition: .4s;
     -o-transition: .4s;
+    transition: .4s;
 }
 
 .footer p {
@@ -572,71 +576,6 @@ main .container .about p {
 
 .header nav .fa-bars {
     display: none;
-}
-
-main .container .book-a-trip form {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin: 0 50px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    background: #4B79A1;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    padding: 5px;
-}
-
-main .container .book-a-trip form div {
-    color: #fff;
-    margin: 15px;
-}
-
-main .container .book-a-trip form div label {
-    cursor: pointer;
-}
-
-input[type="date"] {
-    color: var(--main-color);
-    border: none;
-    outline: none;
-}
-
-::-webkit-calendar-picker-indicator {
-    filter: invert(0);
-    -webkit-filter: invert(0);
-    cursor: pointer;
-}
-
-main .container .book-a-trip form div input {
-    border: none;
-    outline: none;
-    padding: 6px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-
-main .container .book-a-trip form .submit input {
-    color: var(--main-color);
-    cursor: pointer;
-    padding: 10px;
-    width: 150px;
-    background: #fff;
 }
 
 @media (max-width: 1295px) {
@@ -680,11 +619,11 @@ main .container .book-a-trip form .submit input {
         color: #fff;
         font-size: 24px;
         cursor: pointer;
-        transition: .4s;
         -webkit-transition: .4s;
         -moz-transition: .4s;
         -ms-transition: .4s;
         -o-transition: .4s;
+        transition: .4s;
     }
 
     .header nav .fa-bars:hover+.nav-links {
@@ -704,11 +643,11 @@ main .container .book-a-trip form .submit input {
         width: 90%;
         margin: 30px auto;
         padding: 20px 10px 30px;
-        border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
+        border-radius: 5px;
         text-align: center;
         position: relative;
     }
@@ -730,11 +669,11 @@ main .container .book-a-trip form .submit input {
         position: absolute;
         bottom: 0;
         left: 50%;
-        transform: translate(-50%, 50%);
         -webkit-transform: translate(-50%, 50%);
         -moz-transform: translate(-50%, 50%);
         -ms-transform: translate(-50%, 50%);
         -o-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
     }
 
     main .container .book-a-trip form div {
